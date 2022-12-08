@@ -1,0 +1,49 @@
+/* 21 Savage */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); /* feat. Drake */
+
+body {
+    margin: 0;
+    background-color: #030234;
+    font-family: Inter;
+}
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(https://cloudfront-us-east-2.images.arcpublishing.com/reuters/VR3KWV7SYVLF7AQWDYNKCUBYZI.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    padding: 30px;
+    display: flex;
+    gap: 90px;
+}
+
+footer {
+    background-color: gray;
+    padding: 30px;
+    display: flex;
+    gap: 90px;
+}
+footer a {
+    color: black;
+}
+
+/* games */
+.games {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    gap: 20px;
+    padding: 60px 30px;
+}
+.games span {
+    border-radius: 10px;
+    background-repeat: no-repeat, repeat;
+    background-size: 180%;
+    background-position: center;
+    object-fit: cover;
+    height: 550px;
+}
